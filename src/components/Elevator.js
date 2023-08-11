@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../assets/video.jpg';
+import video from '../assets/soon.jpg';
 const Elevator  = () => {
   return (
     <div name='Elevator' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
