@@ -17,7 +17,7 @@ const Home = () => {
         <p className="text-gray-500 py-4 max-w-md">
            I have 4 years of experience as a SQL developer & data Analyst.
            I realy enjoy working with data...
-           Welcome to The Era Of Data
+           
           
         </p>
         <div>
@@ -34,24 +34,24 @@ const Home = () => {
           </Link>
         </div>
         <div>
-          <Link
-            to="Bio"
-            smooth
-            duration={500}
-            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+          <a
+            href="https://drive.google.com/file/d/1293wmZWndMBjv1ltMmAn4g6DqJRp8sX7/view?usp=sharing"
+            target="_blank" rel="noreferrer"  className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            
+            duration={1000}
           >
-            Resuma
+            Resume
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight size={25} className="ml-3" />
             </span>
-          </Link>
+          </a>
         </div>
       </div>
       <div>
         <img
           src={me}  
           alt="my profile"
-          className="rounded-2xl mx-auto w-2/3 md:w-full"
+          className="rounded-2xl mx-auto w-4/3 md:w-full"
         />
       </div>
     </div>
