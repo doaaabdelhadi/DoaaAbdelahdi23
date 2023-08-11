@@ -25,7 +25,7 @@ const Elevator  = () => {
               </span>
               <p className='text-center'> Elevator Pitch</p>
               <div className='pt-8 text-center'>
-                <a href='/' target="_blank" rel="noreferrer">
+                <a href='#' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                   Elevator Pitch  video
                   </button>
