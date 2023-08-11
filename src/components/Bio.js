@@ -20,21 +20,17 @@ const Bio = () => {
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold">
               <p>
-                Hi. I'm Doaa Abdelhadi, nice to meet you. Please take a
+              Hi. I'm Doaa Abdelhadi, nice to meet you. Please take a
                 look around.
               </p>
             </div>
             <div>
               <p>
                 {" "}
-                I have 2 years of experience in Data analysis, currently working at 
-                BDF (Boubyan Digital Factory). My goal is to apply AI to social science and security.
-                  looks forward to understanding more about human behavior, for example, in social science.
-                    applying NLP techniques to focus on common words used by people who suffer 
-                  from autism and, in the security field, understand more about hacker behavior.
-                  My greatest 
-                  achievement was that she was really happy 
-                 that  living alone without my family and shifted my career to her lovely track.
+                 Data analyst with 2 years of experience, currently working at BDF.
+                 Looking forward to understand more about human behavior uisng AI. 
+                 The greatest achievement was that living alone without my family 
+                 and shifted my career to her lovely track "Data Science".
               </p>
             </div>
           </div>

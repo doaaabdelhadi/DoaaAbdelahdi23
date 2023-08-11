@@ -1,6 +1,5 @@
 import React from 'react';
 import video from '../assets/video.jpg';
-import Presentation from '../assets/Presentation.jpg';
 const Elevator  = () => {
   return (
     <div name='Elevator' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
