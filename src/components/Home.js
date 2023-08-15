@@ -2,8 +2,20 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import me from '../assets/me.png';
 import { Link } from "react-scroll"; 
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+
+
+  
 
 const Home = () => {
+  const [introdoaa] = useTypewriter({
+    words: ['Bi Developer', 'Data Analyst', 'SQL Developer', 'ETL Developer'],
+    loop: true,
+    typeSpeed: 20,
+    deleteSpeed:10,
+    delaySpeed:2000
+  })
+
   return (
     <div
     name="home"
@@ -11,13 +23,18 @@ const Home = () => {
   >
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
-        <h2 className="text-4xl sm:text-7xl font-bold text-white">
+        <h2 className="text-3xl sm:text-5xl font-bold text-white">
           I'm Doaa Abdelhadi
         </h2>
-        <p className="text-gray-500 py-4 max-w-md">
-           I have 4 years of experience as a SQL developer & data Analyst.
-           I realy enjoy working with data...
-           
+        <h5 className="text-gray-500 py-4 max-w-md text-3xl sm:text-3xl font-bold">
+         {introdoaa}
+         <Cursor cursorColor='orange' />
+         </h5>
+         <p className="text-gray-500 py-4 max-w-md text-xl sm:text-xl">
+         Welcome to The Era Of Data, nice to meet you. Please take a
+                look around. {" "}   <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
           
         </p>
         <div>
